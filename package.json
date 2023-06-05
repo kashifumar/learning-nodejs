@@ -1,0 +1,29 @@
+{
+  "name": "learning-nodejs",
+  "version": "1.0.0",
+  "description": "Learning Node.JS from Beginning to Advanced",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "type": "module",
+  "scripts": {
+    "start":"node server",
+    "dev":"nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashifumar/learning-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashifumar/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/kashifumar/learning-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
